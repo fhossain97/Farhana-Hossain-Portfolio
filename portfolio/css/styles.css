@@ -384,7 +384,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+  appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -442,7 +442,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+  appearance: textfield;
 }
 
 /* rtl:raw:
@@ -2495,8 +2495,8 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+  print-color-adjust: exact;
+          print-color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -11296,11 +11296,13 @@ textarea.form-control-lg {
 }
 html {
   scroll-padding-top: 4.5rem;
+
 }
 
 body {
   position: relative;
   overflow-x: hidden;
+  /* background-image: url('https://images.pond5.com/green-soft-background-footage-053897915_iconl.jpeg'); */
 }
 
 p {
@@ -11417,12 +11419,14 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #1B4D3E;
-  background-image: url("../assets/img/53901.png");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
+
+  background-image: url("../assets/img/Farhana Hossain.png");
+
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -11726,11 +11730,7 @@ header.masthead .masthead-heading {
   height: 2.75rem;
 }
 
-section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/images.png");
-
-}
+s
 section#contact .section-heading {
   color: #1B4D3E;
 }
